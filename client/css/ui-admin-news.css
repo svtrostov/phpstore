@@ -1,0 +1,26 @@
+.page_admin_news .news_area{
+	position: absolute;
+	top: 47px;
+	left: 0px;
+	right: 0px;
+	bottom:0px;
+	overflow: auto;
+}
+
+.page_admin_news #news_table{
+	margin-top: 5px;
+}
+
+.page_admin_news th,
+.page_admin_news td{
+	vertical-align: middle;
+}
+
+.page_admin_news .neditor_area{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom:0px;
+	overflow: auto;
+}

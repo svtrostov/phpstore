@@ -1,0 +1,180 @@
+.page_domains{
+}
+
+/*Основная область контента*/
+.page_domains #contentarea{
+	position: absolute;
+	top: 80px;
+	bottom:0px;
+	left: 365px;
+	right: 5px;
+}
+
+/*Блок левой панели меню*/
+.page_domains .leftmenu{
+	position: absolute;
+	top: 80px;
+	bottom:10px;
+	left: 5px;
+	width: 360px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow:1px 2px 2px #323a43;
+	-moz-box-shadow:1px 2px 2px #323a43;
+	box-shadow:1px 2px 2px #323a43;
+}
+
+/*Область заголовка блока*/
+.page_domains .leftmenu > .titlebar{
+	background: url(../images/block_title_bg.png) repeat-x;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border:1px solid #2b323b;
+	position:relative;
+}
+
+
+/*Обертка контена для блока меню*/
+.page_domains .leftmenu > .wrapper{
+	color:#2e333b;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-left:1px solid #272d35;
+	border-right:1px solid #272d35;
+	border-bottom:1px solid #272d35;
+	position: absolute;
+	top: 40px;
+	bottom:0px;
+	right:0px;
+	left:0px;
+}
+
+
+/*Область контента блока меню*/
+.page_domains .leftmenu > .wrapper > .menuarea{
+	position: absolute;
+	top: 40px;
+	bottom:40px;
+	right:5px;
+	left:5px;
+	overflow:hidden;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #2B323B;
+	-webkit-box-shadow:inset 1px 2px 2px #262c36;
+	-moz-box-shadow:inset 1px 2px 2px #262c36;
+	box-shadow:inset 1px 2px 2px #262c36;
+	background:#5a6371;
+}
+
+.page_domains .leftmenu > .wrapper > .menuarea:hover{
+	background:#646e7d;
+}
+
+.page_domains .leftmenu > .wrapper > .menuarea > .menubox{
+	position: absolute;
+	top: 5px;
+	bottom:5px;
+	right:5px;
+	left:5px;
+	overflow:auto;
+}
+
+
+/*Область копирайта*/
+.page_domains .leftmenu > .wrapper > .bottomtool{
+	position: absolute;
+	bottom:5px;
+	right:5px;
+	left:5px;
+	height: 28px;
+	overflow:hidden;
+	text-align:center;
+}
+
+.page_domains .leftmenu > .wrapper > .bottomtool a{
+	color: #5a6371;
+	text-decoration: none;
+}
+
+.page_domains .leftmenu > .wrapper > .bottomtool a:hover{
+	color: #b6bfce;
+	text-decoration: none;
+}
+
+
+
+/*Область фильтра объектов в таблице объектов*/
+.page_domains .leftmenu > .wrapper > .filter{
+	margin-top: 3px;
+	height: 32px;
+	overflow: hidden;
+	min-width: 150px;
+}
+
+.page_domains .leftmenu > .wrapper > .filter .flabel{
+	float: left;
+	margin: 0px 4px;
+	width: 50px;
+	overflow: hidden;
+	line-height: 30px;
+	color: #b6bfce;
+}
+
+
+.page_domains .leftmenu > .wrapper > .filter .fbutton{
+	float: right;
+	margin: 3px 3px;
+	width: 16px;
+	height: 30px;
+	overflow: hidden;
+	background: transparent url(../images/filter.png) left center no-repeat;
+	cursor: pointer;
+}
+
+
+.page_domains .leftmenu > .wrapper > .filter .finput{
+	margin-left: 60px;
+	margin-right: 35px;
+	margin-top: 1px;
+}
+
+.page_domains .leftmenu > .wrapper > .filter .finput input{
+	background: #5a6371;
+	color: #b6bfce;
+	width:100%;
+	border: 1px solid #363d47;
+}
+
+
+
+.page_domains .tool_right{
+	position: absolute;
+	right:10px;
+	top:10px;
+	width:auto;
+	height: 30px;
+}
+
+.page_domains .approve_steps{
+	list-style-type: decimal !important;
+	padding-left: 20px;
+}
+
+.page_domains .approve_steps li{
+	margin:10px 0;
+}
+
+.page_domains .approve_steps li span{
+	font-weight: bold;
+}

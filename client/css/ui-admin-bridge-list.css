@@ -1,0 +1,132 @@
+.page_admin_bridge_list .filter_area{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 46px;
+	overflow: hidden;
+	border-bottom:1px solid #dadada;
+}
+
+
+.page_admin_bridge_list .filter_area > .filter_line{
+	display: block;
+	clear:both;
+	border-top: 1px solid #dadada;
+	padding: 3px;
+}
+.page_admin_bridge_list .filter_area > .filter_line:first-child{
+	border-top: 0;
+}
+
+
+.page_admin_bridge_list .filter_line > div.left{
+	display:inline-block;
+	padding-left:5px;
+	border-left:3px double #dadada;
+}
+
+.page_admin_bridge_list .filter_line > div.left:first-child{
+	border-left:3px double #FFFFFF;
+	padding-left:0px;
+}
+
+.page_admin_bridge_list #filter_employer_status{
+	width:130px;
+}
+
+.page_admin_bridge_list #filter_search_name{
+	width:350px;
+}
+
+.page_admin_bridge_list .filter_area .icon_filter{
+	background:url(../images/icons/icon_filter_24.png) left top no-repeat;
+}
+
+
+.page_admin_bridge_list .bridges_area{
+	position: absolute;
+	top: 47px;
+	left: 0px;
+	right: 0px;
+	bottom:0px;
+	overflow: auto;
+}
+
+.page_admin_bridge_list #bridges_table{
+	margin-top: 5px;
+}
+
+.page_admin_bridge_list #bridges_table th,
+.page_admin_bridge_list #bridges_table td{
+	vertical-align: middle;
+}
+
+
+
+.page_admin_bridge_list .pselector_area{
+	position: absolute;
+	top: 86px;
+	left: 0px;
+	right: 0px;
+	bottom:0px;
+	overflow: auto;
+}
+
+.page_admin_bridge_list .pselector_selected_area{
+	height: 80px;
+}
+
+.page_admin_bridge_list #pselector_selected{
+	width: 90%;
+	height: 100%;
+}
+
+
+.page_admin_bridge_list #pselector_table{
+	margin-top: 5px;
+}
+
+.page_admin_bridge_list .input_title{
+	font-size:10px;
+	line-height:10px;
+	color:#999;
+}
+
+.page_admin_bridge_list .filter_area{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 86px;
+	overflow: hidden;
+	//border-bottom:1px solid #dadada;
+}
+
+
+.page_admin_bridge_list .filter_area > .filter_line{
+	display: block;
+	clear:both;
+	border-bottom: 1px solid #dadada;
+	padding: 3px;
+}
+.page_admin_bridge_list .filter_area > .filter_line:first-child{
+	border-top: 0;
+}
+
+
+.page_admin_bridge_list .filter_line > div.left{
+	display:inline-block;
+	padding-left:5px;
+	border-left:3px double #dadada;
+}
+
+.page_admin_bridge_list .filter_line > div.left:first-child{
+	border-left:3px double #FFFFFF;
+	padding-left:0px;
+}
+
+
+.page_admin_bridge_list .filter_area .icon_filter{
+	background:url(../images/icons/icon_filter_24.png) left top no-repeat;
+}

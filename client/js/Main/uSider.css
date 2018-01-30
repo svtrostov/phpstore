@@ -1,0 +1,110 @@
+/* uSlider default style */
+
+.uSlider {
+    width: 700px;
+    transition: all 0.3s ease;
+    position: relative;
+    background: #e6e6e6;
+    margin: 0 auto 0 auto;
+}
+
+.uSlider .uSlider-slides {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.uSlider .uSlider-slides li {
+    margin: 0;
+    padding: 0;
+    background: url("loading.gif") center center no-repeat;
+}
+
+.uSlider .uSlider-slides li > img {
+    width: 100%;
+    display: block;
+}
+
+.uSlider .uSlider-control-nav {
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    opacity: .5;
+    top: 45%;
+    right: 0;
+    z-index: 2;
+    opacity: 0;
+    transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+}
+
+.uSlider:hover .uSlider-control-nav {
+    opacity: 1;
+    right: 2%;
+}
+
+.uSlider .uSlider-control-nav li {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.uSlider .uSlider-control-nav li a {
+    width: 12px;
+    height: 12px;
+    display: block;
+    position: relative;
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .3);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .3);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .3);
+    background-color: #e6e6e6;
+
+    transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+}
+
+.uSlider .uSlider-control-nav li.selected a,
+.uSlider .uSlider-control-nav li a:hover {
+    background-color: #7B7A78;
+
+}
+
+.uSlider .uSlider-prev-nav,
+.uSlider .uSlider-next-nav {
+    position: absolute;
+    display: block;
+    width: 55px;
+    height: 57px;
+    background: url("my_direction_navs_here.png") no-repeat lightgray;
+    z-index: 1;
+    top: 50%;
+    opacity: 0;
+    border-radius: 30px;
+}
+
+.uSlider .uSlider-prev-nav {
+    left: 0;
+}
+
+.uSlider .uSlider-next-nav {
+    right: 0;
+    background-position: -55px top;
+}
+
+.uSlider:hover .uSlider-prev-nav,
+.uSlider:hover .uSlider-next-nav {
+    opacity: 1;
+}
+
+.uSlider:hover .uSlider-prev-nav {
+    left: 5%;
+}
+
+.uSlider:hover .uSlider-next-nav {
+    right: 5%;
+}

@@ -1,0 +1,164 @@
+.page_stickies #stickies_toolbar{
+	position: absolute;
+	left:5px;
+	top:5px;
+	height: 32px;
+	width: 32px;
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.page_stickies #sticky_add_button{
+	cursor: pointer;
+	opacity:0.7;
+}
+.page_stickies #sticky_add_button:hover{
+	opacity:1;
+}
+
+
+
+/*Доска стикеров*/
+.page_stickies #stickies_board{
+	position: absolute;
+	left:5px;
+	top:5px;
+	bottom: 5px;
+	right: 5px;
+	//border: 1px solid #666;
+	overflow: auto;
+}
+
+.page_stickies  div.sticky {
+	position:absolute;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	z-index:1;
+	width:155px; 
+	height:172px;
+	top:100px;
+	left:100px;
+}
+.page_stickies div.sticky-inner {
+	padding:0px;
+	border:solid 1px #bca902;
+	-moz-box-shadow:3px 3px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow:3px 3px 10px rgba(0, 0, 0, 0.5);
+	box-shadow:3px 3px 10px rgba(0, 0, 0, 0.5);
+	position:absolute;
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+}
+
+.page_stickies div.sticky.active div.sticky-inner{
+	cursor:pointer;
+	margin:-1px 0 0 -1px;
+	-moz-box-shadow:3px 3px 16px rgba(0, 0, 0, 0.7);
+	-webkit-box-shadow:3px 3px 16px rgba(0, 0, 0, 0.7);
+	box-shadow:3px 3px 16px rgba(0, 0, 0, 0.7);
+}
+
+.page_stickies .sticky-header{
+	position: absolute;
+	left:-1px;
+	top:-1px;
+	right:-1px;
+	height:13px;
+	border:1px solid #bca902;
+	font-size:0.7em;
+	padding: 1px 0;
+	opacity: 0.8;
+	cursor:move;
+}
+
+.page_stickies .sticky-header .sticky-title{
+	float: left;
+	font-size: 10px;
+	font-weight: bold;
+	color:#333;
+}
+
+.page_stickies div.sticky.active .sticky-title{
+	color:#000 !important;
+}
+
+
+.page_stickies .sticky-header .tool{
+	float: right;
+	margin: 1px 2px;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+}
+
+
+.page_stickies div.sticky-content {
+	position: absolute;
+	left:3px;
+	top:18px;
+	right:3px;
+	bottom:3px;
+}
+.page_stickies .sticky textarea {
+	height: 100%;
+	width: 100%;
+	left: 0;
+	outline: 0 none;
+	background:none;
+	border:none;
+	font-size:16px;
+	font-family:"'Helvetica Neue", "Trebuchet MS", sans-serif;
+	line-height:1.15em;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	resize: none;
+}
+
+
+.page_stickies .sticky-resizable{
+	position: absolute;
+	font-size: 0.1px;
+	display: block;
+	cursor: se-resize;
+	width: 17px;
+	height: 17px;
+	right: -5px;
+	bottom: -5px;
+	z-index: 100000 !important;
+	background: transparent !important;
+}
+
+
+/* default */
+.sticky-default .sticky-inner { background-color:#fef49c; border-color: #bca902; }
+.sticky-default .sticky-header {  background-color:#feea3d ; border-color: #bca902;}
+i.sticky-default { background:#fef49c}
+
+/* pink */
+.sticky-pink .sticky-inner { background-color:#ffc7c7; border-color: #e27575; }
+.sticky-pink .sticky-header {  background-color:#ffb2b2 ; border-color: #e27575;}
+i.sticky-pink { background:#ffc7c7}
+
+/* blue */
+.sticky-blue .sticky-inner { background-color:#adf4ff; border-color: #02bcd7; }
+.sticky-blue .sticky-header {  background-color:#89f0ff ; border-color: #02bcd7;}
+i.sticky-blue { background:#adf4ff}
+
+/* lightblue */
+.sticky-lightblue .sticky-inner { background-color:#b6caff; border-color: #7591dc; }
+.sticky-lightblue .sticky-header {  background-color:#9bb6fe ; border-color: #7591dc;}
+i.sticky-lightblue { background:#b6caff}
+
+/* grey */
+.sticky-grey .sticky-inner { background-color:#ddd; border-color: #aaa; }
+.sticky-grey .sticky-header {  background-color:#ccc ; border-color: #aaa;}
+i.sticky-grey { background:#ddd}
+
+/* green */
+.sticky-green .sticky-inner { background-color:#bbffaa; border-color: #76b865; }
+.sticky-green .sticky-header {  background-color:#9bf884 ; border-color: #76b865;}
+i.sticky-green { background:#bbffaa}

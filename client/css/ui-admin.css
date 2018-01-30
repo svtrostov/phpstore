@@ -1,0 +1,205 @@
+@charset "utf-8";
+/***********************************************************************
+ * СТИЛИ ТЕГОВ
+ **********************************************************************/
+
+/*Основная область контента*/
+#adminarea{
+	position: absolute;
+	top: 80px;
+	bottom:10px;
+	left: 290px;
+	right: 5px;
+}
+
+/*Изменение стилизации большого блока*/
+.bigblock{
+	top: 0px !important;
+	left: 0px !important;
+	right: 0px !important;
+	bottom: 0px !important;
+}
+
+/*Блок левой панели меню*/
+.leftmenu{
+	position: absolute;
+	top: 80px;
+	bottom:10px;
+	left: 5px;
+	width: 275px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow:1px 2px 2px #323a43;
+	-moz-box-shadow:1px 2px 2px #323a43;
+	box-shadow:1px 2px 2px #323a43;
+}
+
+/*Область заголовка блока*/
+.leftmenu > .titlebar{
+	background: url(../images/block_title_bg.png) repeat-x;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border:1px solid #2b323b;
+	position:relative;
+}
+
+
+/*Обертка контена для блока меню*/
+.leftmenu > .wrapper{
+	color:#2e333b;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-left:1px solid #272d35;
+	border-right:1px solid #272d35;
+	border-bottom:1px solid #272d35;
+	position: absolute;
+	top: 40px;
+	bottom:0px;
+	right:0px;
+	left:0px;
+}
+
+
+/*Область контента блока меню*/
+.leftmenu > .wrapper > .menuarea{
+	position: absolute;
+	top: 5px;
+	bottom:30px;
+	right:5px;
+	left:5px;
+	overflow:hidden;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #2B323B;
+	-webkit-box-shadow:inset 1px 2px 2px #262c36;
+	-moz-box-shadow:inset 1px 2px 2px #262c36;
+	box-shadow:inset 1px 2px 2px #262c36;
+	background:#5a6371;
+}
+
+.leftmenu > .wrapper > .menuarea:hover{
+	background:#646e7d;
+}
+
+.leftmenu > .wrapper > .menuarea > .menubox{
+	position: absolute;
+	top: 5px;
+	bottom:5px;
+	right:5px;
+	left:5px;
+	overflow:auto;
+}
+
+
+/*Область копирайта*/
+.leftmenu > .wrapper > .copyright{
+	position: absolute;
+	bottom:5px;
+	right:5px;
+	left:5px;
+	height: 18px;
+	overflow:hidden;
+	text-align:center;
+}
+
+.leftmenu > .wrapper > .copyright a{
+	color: #5a6371;
+	text-decoration: none;
+}
+
+.leftmenu > .wrapper > .copyright a:hover{
+	color: #b6bfce;
+	text-decoration: none;
+}
+
+
+
+/*Стили дерева меню, для класса jsMenuTree*/
+.menutree{
+	font-size: 11px;
+	line-height: 15px;
+	margin: 0 0 10px 0;
+}
+
+.menutree ul {
+	margin: 0;
+}
+
+.menutree li {
+	list-style-type: none;
+	white-space: nowrap;
+}
+
+.menutree li img {
+	vertical-align: middle;
+	width: 18px;
+	height: 18px;
+	overflow: hidden;
+}
+
+.menutree li span{
+	padding-left: 2px;
+	font-weight: bold;
+	color: #b6bfce;
+	white-space: nowrap;
+}
+
+.menutree a{
+	color: #2B323B;
+	text-decoration: none;
+}
+
+.menutree a:hover{
+	color: #b6bfce;
+	text-decoration:underline;
+}
+
+
+/*Стили дерева меню, для класса jsMenuTreeDesign*/
+.treedesign{
+	font-size: 11px;
+	line-height: 15px;
+	margin: 0 0 10px 0;
+}
+
+.treedesign ul {
+	margin: 0;
+}
+
+.treedesign li {
+	list-style-type: none;
+	white-space: nowrap;
+}
+
+.treedesign li img {
+	vertical-align: middle;
+	width: 18px;
+	height: 18px;
+	overflow: hidden;
+}
+
+.treedesign li span{
+	padding-left: 2px;
+	font-weight: normal;
+	color: #2B323B;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.treedesign li span.selected{
+	border:1px dotted blue;
+	font-weight: bold;
+	color: #2B323B;
+	background: #eee;
+}
+

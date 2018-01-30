@@ -1,0 +1,165 @@
+.page_client_info td,
+.page_client_info th{
+	vertical-align: middle;
+}
+
+.page_client_info #username_check{
+	background: transparent url(../images/icons/search_16.png) left center no-repeat;
+	width: auto;
+	height: 29px;
+	cursor: pointer;
+	padding-left: 24px;
+}
+
+.page_client_info #selector_client div.wrapper{
+	position: absolute;
+	left:10px;
+	top:32px;
+	bottom:10px;
+	right:5px;
+	padding-right:5px;
+	overflow-y:auto;
+}
+
+.page_client_info #selector_client_area{
+	position: absolute;
+	display: block;
+	top: 32px;
+	left: 0px;
+	right: 0px;
+	bottom:0px;
+	overflow: hidden;
+	text-align: left;
+}
+
+.page_client_info #selector_client_select{
+	width:100%;
+	height:100%;
+}
+
+
+/*Область фильтра объектов в таблице объектов*/
+.page_client_info .selector_client_filter_area{
+	height: 32px;
+	overflow: hidden;
+	min-width: 150px;
+}
+
+.page_client_info .selector_client_filter_area .flabel{
+	float: left;
+	margin: 0px 5px;
+	width: 50px;
+	overflow: hidden;
+	line-height: 30px;
+}
+
+
+.page_client_info .selector_client_filter_area .fbutton{
+	float: right;
+	margin: 0px 3px;
+	width: 16px;
+	height: 30px;
+	overflow: hidden;
+	background: transparent url(../images/filter.png) left center no-repeat;
+	cursor: pointer;
+}
+
+
+.page_client_info .selector_client_filter_area .finput{
+	margin-left: 60px;
+	margin-right: 35px;
+}
+
+.page_client_info .selector_client_filter_area .finput input{
+	width:100%;
+}
+
+
+.page_client_info .filter_area{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 43px;
+	overflow: hidden;
+	border-bottom:1px solid #dadada;
+}
+
+
+.page_client_info .filter_area > .filter_line{
+	display: block;
+	clear:both;
+	border-top: 1px solid #dadada;
+	padding: 3px;
+}
+
+.page_client_info .filter_area > .filter_line:first-child{
+	border-top: 0;
+}
+
+
+.page_client_info .tool_right{
+	position: absolute;
+	right:0px;
+	top:0px;
+	width:auto;
+	height: 30px;
+}
+
+
+.page_client_info .filter_line > div.left{
+	display:inline-block;
+	padding-left:5px;
+	border-left:3px double #dadada;
+}
+
+.page_client_info .filter_line > div.left:first-child{
+	border-left:3px double #FFFFFF;
+	padding-left:0px;
+}
+
+.page_client_info #filter_payment_type{
+	width:250px;
+}
+
+.page_client_info #filter_from_date,
+.page_client_info #filter_to_date{
+	width:150px;
+}
+
+.page_client_info .filter_area .icon_filter{
+	background:url(../images/icons/icon_refresh_24.png) left top no-repeat;
+}
+
+.page_client_info #payments_list_area,
+.page_client_info #payment_add_area,
+.page_client_info #payment_edit_area{
+	position: absolute;
+	top: 45px;
+	left: 0px;
+	right: 0px;
+	bottom:0px;
+	overflow: auto;
+}
+
+.page_client_info #payments_list_table{
+	margin-top: 5px;
+}
+
+.page_client_info #payments_list_table th,
+.page_client_info #payments_list_table td{
+	vertical-align: middle;
+}
+
+.page_client_info .balance{
+	margin: 0 10px;
+	cursor: pointer;
+}
+.page_client_info #account_balance{
+	color: green;
+}
+
+.page_client_info #available_for_payout{
+	color: green;
+	font-weight: bold;
+}

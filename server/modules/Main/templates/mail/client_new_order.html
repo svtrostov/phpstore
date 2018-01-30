@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DTBox.ru интернет-магазин</title>
+<style type="text/css">
+/* Client-specific Styles */
+#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
+body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
+/* Reset Styles */
+body{margin:0; padding:0;}
+img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+td,th{border-collapse:collapse;font-family:Arial;font-size:12px;}
+th{padding:10px 10px;margin:0;text-align:center;font-weight:bold;background-color:#E2E2E2;}
+p{font-size:1.1em;}
+h1,.h1,h2,.h2{color:#202020;display:block;font-size:20px;font-weight:bold;line-height:100%;padding-top:20px;text-align:left;}
+h4,.h4{font-size:12px;font-weight:bold;text-align:left;background-color:#E8E7DF;padding:5px;margin:0px;}
+h5,.h5{font-size:12px;font-weight:bold;text-align:left;padding:5px;margin:0px;}
+ul{list-style:none;width:100%;margin:0;padding:0px;}
+li{padding:5px;}
+li:hover{background:#eaeaea;}
+#wrapper{height:100% !important; margin:0; padding:0; width:100% !important;padding:20px;}
+
+/*common page elements*/
+body, #wrapper{background-color:#FAFAFA;}
+#container{border: 1px solid #CCCCCC;max-width:1200px;background-color:#FFFFFF;}
+#warning{color: red;}
+#header{background-color:#E2E2E2;border-top: 1px solid #B3AE98;border-bottom: 1px solid #B3AE98;padding:10px;}
+.header_bg{background-color:#E2E2E2;}
+.header_bg a{text-decoration:none;color:#000000;}
+#header_title{font-size:32px;font-weight:bold;font-family:Georgia,"Times New Roman",Times,serif;}
+#header_desc{font-size:13px;font-family:Georgia,"Times New Roman",Times,serif;}
+#content{padding:10px;}
+.ilist{padding:5px;}
+.k{width:120px;}
+.v{}
+.name{font-weight:bold;color:#666;}
+.phone,.email{font-size:-0.2em;color:#666;}
+.approve{background-color:#F1FCEB;}
+.decline{background-color:#FCEBEB;}
+.normal{background-color:#FFFFFF;}
+a.button{color:#FFFFFF;background-color:#336699;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;text-decoration:none;line-height:20px;padding:3px 5px;margin:5px 0px;width:auto;}
+a.button:hover{background-color:#225577;}
+</style>
+</head>
+
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0"><center>
+<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="wrapper"><tr><td align="center" valign="top">
+
+	<table border="0" cellpadding="0" cellspacing="0" width="100%" id="container"><tr><td align="center" valign="top">
+
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr><td width="100%" height="30" align="center" valign="middle" id="warning">Это письмо сгенерировано автоматически и не требует ответа.</td></tr>
+		</table>
+
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" id="header">
+			<tr><td width="100%" height="60" align="left" valign="middle">
+				<table border="0" cellpadding="0" cellspacing="0" width="100%" class="header_bg">
+					<tr><td width="50%" align="left" valign="bottom" id="header_title" class="header_bg"><a href="http://dtbox.ru">DTBox.ru</a></td>
+					<td width="50%" align="right" valign="middle" rowspan="2" style="padding:5px;" class="header_bg">
+						<a class="button" href="{%order_link%}" style="padding:10px;line-height:30px;">Проверить статус заказа</a>
+					</td></tr>
+					<tr><td width="50%" align="left" valign="top" id="header_desc" class="header_bg" style="padding-left:0px;">интернет-магазин цифровой техники</td></tr>
+				</table>
+			</td></tr>
+		</table>
+
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" id="content">
+			<tr><td>&nbsp;</td></tr>
+			<tr><td width="100%" align="left" valign="top">
+				<p>Доброго времени суток,<br/><br/> Спасибо за покупку в нашем интернет-магазине.<br>В ближайшее время с Вами свяжется менеджер для уточнения деталей заказа.</p>
+			</td></tr>
+			<tr><td width="100%" align="left" valign="top">
+				<h3>Детали Вашего заказа:</h3>
+				<table cellspacing="3" cellpadding="5" border="1" bordercolor="#B3AE98" width="100%"><tbody>
+					<tr>
+						<td width="150">Номер заказа:</td>
+						<td>{%order_num%}</td>
+					</tr>
+					<tr>
+						<td width="150">Контактное лицо:</td>
+						<td>{%order_name%}</td>
+					</tr>
+					<tr>
+						<td width="150">Телефон:</td>
+						<td>{%order_phone%}</td>
+					</tr>
+					<tr>
+						<td width="150">Доставка:</td>
+						<td>{%order_delivery%}</td>
+					</tr>
+					<tr>
+						<td width="150">Тип оплаты:</td>
+						<td>{%order_paymethod%}</td>
+					</tr>
+				</tbody></table>
+			</td></tr>
+
+			<tr><td width="100%" align="left" valign="top">
+				<h3>Заказанные товары:</h3>
+				<table cellspacing="3" cellpadding="5" border="1" bordercolor="#B3AE98" width="100%">
+					<thead>
+						<th width="60%">Наименование товара</th>
+						<th width="15%">Цена (руб)</th>
+						<th width="10%">Количество</th>
+						<th width="15%">Стоимость (руб)</th>
+					</thead>
+					<tbody>
+					{%order_cart%}
+				</tbody></table>
+			</td></tr>
+
+			<tr><td width="100%" align="left" valign="top">
+				<br>
+				<h3>Вы можете проверить статус заказа и загрузить платежные документы, перейдя по ссылке:</h3>
+				<table cellspacing="3" cellpadding="5" border="1" bordercolor="#B3AE98" width="100%"><tbody>
+					<tr>
+						<td> <a href="{%order_link%}">{%order_link%}</a> </td>
+					</tr>
+				</tbody></table>
+			</td></tr>
+
+			<tr><td width="100%" align="left" valign="top">
+				<br><br>
+				<b>С уважением,<br>
+				интернет-магазин <a href="http://dtbox.ru">dtbox.ru</a></b><br><br>
+				Телефон/факс: +7 (863) 309-00-89<br>
+				E-Mail: info@dtbox.ru<br>
+				Адрес: г.Ростов-на-Дону, Лермонтовская 102 оф.6<br>
+				График работы: понедельник-пятница с 10-00 до 18-00<br>
+			</td></tr>
+
+		</table>
+
+	</td></tr></table>
+
+</td></tr></table>
+
+</center></body>
+</html>

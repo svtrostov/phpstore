@@ -1,0 +1,41 @@
+<!-- Place inside the <head> of your HTML -->
+<script type="text/javascript" src="./tinymce.min.js"></script>
+<script type="text/javascript">
+tinymce.init({
+    selector: "textarea",
+    language : 'ru',
+	plugins: [
+		"advlist autolink autosave link image lists charmap print preview hr anchor pagebreak table",
+		"searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
+		"table contextmenu directionality emoticons template textcolor paste fullpage textcolor colorpicker textpattern"
+	],
+
+	toolbar1: "newdocument fullpage | bold italic underline strikethrough | alignleft aligncenter alignright alignjustify | styleselect formatselect fontselect fontsizeselect",
+	toolbar2: "cut copy paste pastetext | searchreplace | bullist numlist | outdent indent blockquote | undo redo | link unlink anchor image media code | insertdatetime | forecolor backcolor",
+	toolbar3: "table | hr removeformat | subscript superscript | charmap | print fullscreen | ltr rtl | visualchars visualblocks preview",
+
+	menubar: false,
+	toolbar_items_size: 'small',
+
+	style_formats: [
+		{title: 'Bold text', inline: 'b'},
+		{title: 'Red text', inline: 'span', styles: {color: '#ff0000'}},
+		{title: 'Red header', block: 'h1', styles: {color: '#ff0000'}},
+		{title: 'Example 1', inline: 'span', classes: 'example1'},
+		{title: 'Example 2', inline: 'span', classes: 'example2'},
+		{title: 'Table styles'},
+		{title: 'Table row 1', selector: 'tr', classes: 'tablerow1'}
+	],
+
+	templates: [
+		{title: 'Test template 1', content: '<b>Test 1</b>'},
+		{title: 'Test template 2', content: '<em>Test 2</em>'}
+	]
+ });
+
+</script>
+
+<!-- Place this in the body of the page content -->
+<form method="post">
+	<textarea></textarea>
+</form> 

@@ -1,0 +1,28 @@
+.page_admin_offers .filter_area{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 46px;
+	overflow: hidden;
+	border-bottom:1px solid #dadada;
+}
+
+
+.page_admin_offers .bridges_area{
+	position: absolute;
+	top: 47px;
+	left: 0px;
+	right: 0px;
+	bottom:0px;
+	overflow: auto;
+}
+
+.page_admin_offers #bridges_table{
+	margin-top: 5px;
+}
+
+.page_admin_offers #bridges_table th,
+.page_admin_offers #bridges_table td{
+	vertical-align: middle;
+}

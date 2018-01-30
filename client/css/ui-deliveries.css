@@ -1,0 +1,51 @@
+/*Область списка объектов*/
+.page_deliveries #area{
+	position: absolute;
+	left:10px;
+	top:10px;
+	bottom: 10px;
+	width: 300px;
+	border: 1px solid #ccc;
+	overflow: auto;
+}
+
+/*Область информации по объекту ACL*/
+.page_deliveries #info{
+	position: absolute;
+	left:320px;
+	top:10px;
+	bottom: 10px;
+	right: 10px;
+	border: 1px solid #ccc;
+	overflow: auto;
+	padding: 5px;
+}
+
+/*Разделитель*/
+.page_deliveries #splitter{
+	position: absolute;
+	left:313px;
+	width: 4px;
+	top:10px;
+	bottom: 10px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	background: #e3e3e3 url(../images/handle_h.gif) center center no-repeat;
+	cursor: col-resize;
+}
+
+
+/*Область вывода таблицы*/
+.page_deliveries #table_area_wrapper{
+	overflow: auto;
+	position: absolute;
+	left:0px;
+	top:0px;
+	bottom: 0px;
+	right: 0px;
+}
+
+.page_deliveries .table_area{
+	//border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}

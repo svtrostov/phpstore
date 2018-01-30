@@ -1,0 +1,65 @@
+.page_stats{
+}
+.page_stats .filter_area{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 43px;
+	overflow: hidden;
+	border-bottom:1px solid #dadada;
+}
+
+
+.page_stats .filter_area > .filter_line{
+	display: block;
+	clear:both;
+	border-top: 1px solid #dadada;
+	padding: 3px;
+}
+
+.page_stats .filter_area > .filter_line:first-child{
+	border-top: 0;
+}
+
+.page_stats .filter_line > div.left{
+	display:inline-block;
+	padding-left:5px;
+	border-left:3px double #dadada;
+}
+
+.page_stats .filter_line > div.left:first-child{
+	border-left:3px double #FFFFFF;
+	padding-left:0px;
+}
+
+.page_stats #filter_stat_type{
+	width:250px;
+}
+
+.page_stats #filter_from_date,
+.page_stats #filter_to_date{
+	width:150px;
+}
+
+.page_stats .filter_area .icon_filter{
+	background:url(../images/icons/icon_refresh_24.png) left top no-repeat;
+}
+
+.page_stats .stats_area{
+	position: absolute;
+	top: 45px;
+	left: 0px;
+	right: 0px;
+	bottom:0px;
+	overflow: auto;
+}
+
+.page_stats #stats_table{
+	margin-top: 5px;
+}
+
+.page_stats #stats_table th,
+.page_stats #stats_table td{
+	vertical-align: middle;
+}

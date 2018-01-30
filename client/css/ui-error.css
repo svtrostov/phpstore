@@ -1,0 +1,24 @@
+body{
+	background:#363d47 url(../images/background.jpg) top center no-repeat fixed;
+	font-family:Tahoma, Verdana, Arial, sans-serif;
+	font-size:12px;color:#fff;
+}
+/*Заголовок ошибки*/
+.errorpage_title{
+	font-size:72px;
+	font-weight:400;
+	color:#282e36;
+	text-shadow:1px 1px 1px #657185;
+	text-align:center;
+	margin:150px 0 30px;
+	line-height: 80px;
+}
+
+/*Описание ошибки*/
+.errorpage_subtitle{
+	text-align:center;
+	font-size:18px;
+	color:#B6BFCE;
+	text-shadow:1px 1px 2px #2b323c;
+	line-height: 20px;
+}

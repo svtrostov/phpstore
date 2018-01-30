@@ -1,0 +1,35 @@
+.page_user_info td,
+.page_user_info th{
+	vertical-align: middle;
+}
+
+.page_user_info #username_check{
+	background: transparent url(../images/icons/search_16.png) left center no-repeat;
+	width: auto;
+	height: 29px;
+	cursor: pointer;
+	padding-left: 24px;
+}
+
+.page_user_info .table_area{
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.page_user_info .splitline{
+	margin-top:20px;
+	margin-bottom:10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.page_user_info .tab_content_wrapper{
+	position: absolute;
+	left:10px;
+	top:55px;
+	bottom:10px;
+	right:5px;
+	padding-right:5px;
+	overflow-y:auto;
+}
+
+

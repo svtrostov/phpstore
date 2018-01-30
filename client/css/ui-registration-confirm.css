@@ -1,0 +1,35 @@
+.page_confirm{
+	width:700px;
+	min-height:400px;
+	position:absolute;
+	top:10px;
+	left:50%;
+	margin-left:-350px;
+	margin-top:-10px;
+	bottom: 10px;
+}
+
+.page_confirm .logo_area{
+	margin: 10px 20px;
+	display:block;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.page_confirm .logo_text{
+	font-size:34px;
+	font-weight:400;
+	color:#282e36;
+	text-shadow:1px 1px 1px #657185;
+	text-align:right;
+	line-height: 34px;
+	margin-top:20px;
+}
+
+/*Описание ошибки*/
+.logo_subtext{
+	text-align:right;
+	font-size:18px;
+	color:#B6BFCE;
+	text-shadow:1px 1px 2px #2b323c;
+}

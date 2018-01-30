@@ -1,0 +1,45 @@
+.page_admin_about{
+	overflow-y: auto;
+	position: absolute;
+	left:0px;
+	top:0px;
+	bottom:0px;
+	right:0px;
+}
+
+.page_admin_about .about_title{
+	font-size:68px;
+	font-weight:400;
+	color:#282e36;
+	text-shadow:1px 1px 1px #657185;
+	text-align:center;
+	margin:30px 0 30px;
+}
+
+.page_admin_about .about_subtitle{
+	text-align:center;
+	font-size:20px;
+	color:#B6BFCE;
+	text-shadow:1px 1px 2px #2b323c;
+	line-height: 24px;
+}
+
+.page_admin_about .splitline{
+	height: 1px;
+	width: 100%;
+	border-top: 1px solid #282e36;
+	text-shadow:1px 1px 1px #657185;
+	text-align:center;
+	margin:20px 0 20px;
+}
+
+
+.page_admin_about .about_section{
+	text-align: left;
+	margin-top: 30px;
+}
+
+.page_admin_about .about_section > h1{
+	color:#B6BFCE;
+	font-weight:bold;
+}

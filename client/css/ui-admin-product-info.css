@@ -1,0 +1,275 @@
+.page_product_info .filter_area{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 46px;
+	overflow: hidden;
+	border-bottom:1px solid #dadada;
+}
+
+
+.page_product_info .filter_area > .filter_line{
+	display: block;
+	clear:both;
+	border-top: 1px solid #dadada;
+	padding: 3px;
+}
+.page_product_info .filter_area > .filter_line:first-child{
+	border-top: 0;
+}
+
+
+.page_product_info .filter_line > div.left{
+	display:inline-block;
+	padding-left:5px;
+	border-left:3px double #dadada;
+}
+
+.page_product_info .filter_line > div.left:first-child{
+	border-left:3px double #FFFFFF;
+	padding-left:0px;
+}
+
+.page_product_info #filter_employer_status{
+	width:130px;
+}
+
+.page_product_info #filter_search_name{
+	width:350px;
+}
+
+.page_product_info .filter_area .icon_filter{
+	background:url(../images/icons/icon_filter_24.png) left top no-repeat;
+}
+
+
+.page_product_info .bridges_area{
+	position: absolute;
+	top: 47px;
+	left: 0px;
+	right: 0px;
+	bottom:0px;
+	overflow: auto;
+}
+
+.page_product_info #bridges_table{
+	margin-top: 5px;
+}
+
+.page_product_info #bridges_table th,
+.page_product_info #bridges_table td{
+	vertical-align: middle;
+}
+
+
+
+.page_product_info .pselector_area{
+	position: absolute;
+	top: 86px;
+	left: 0px;
+	right: 0px;
+	bottom:0px;
+	overflow: auto;
+}
+
+.page_product_info .pselector_selected_area{
+	height: 80px;
+}
+
+.page_product_info #pselector_selected{
+	width: 90%;
+	height: 100%;
+}
+
+
+.page_product_info #pselector_table{
+	margin-top: 5px;
+}
+
+.page_product_info .input_title{
+	font-size:10px;
+	line-height:10px;
+	color:#999;
+}
+
+.page_product_info .filter_area{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 86px;
+	overflow: hidden;
+	//border-bottom:1px solid #dadada;
+}
+
+
+.page_product_info .filter_area > .filter_line{
+	display: block;
+	clear:both;
+	border-bottom: 1px solid #dadada;
+	padding: 3px;
+}
+.page_product_info .filter_area > .filter_line:first-child{
+	border-top: 0;
+}
+
+
+.page_product_info .filter_line > div.left{
+	display:inline-block;
+	padding-left:5px;
+	border-left:3px double #dadada;
+}
+
+.page_product_info .filter_line > div.left:first-child{
+	border-left:3px double #FFFFFF;
+	padding-left:0px;
+}
+
+
+.page_product_info .filter_area .icon_filter{
+	background:url(../images/icons/icon_filter_24.png) left top no-repeat;
+}
+
+
+
+.page_product_info ul.imglist{
+	cursor: default;
+	list-style: none;
+}
+
+.page_product_info ul.imglist li{
+	background: #eee;
+	border-color: #ddd #bbb #aaa #ccc;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	display: inline;
+	float: left;
+	margin: 3px;
+	padding: 5px;
+	position: relative;
+	cursor: pointer;
+}
+.page_product_info ul.imglist li.main{
+	background: #FFA8A3;
+}
+
+.page_product_info ul.imglist li .tool{
+	position: absolute;
+	width: 40px;
+	height:20px;
+	right: 8px;
+	bottom:8px;
+	cursor: pointer;
+	display: none;
+}
+
+.page_product_info ul.imglist li .tool > img{
+	width: 16px;
+	height: 16px;
+	margin-left: 4px;
+}
+
+.page_product_info ul.imglist li > img{
+	background: #fff;
+	border-color: #aaa #ccc #ddd #bbb;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	padding: 2px;
+	vertical-align: top;
+	width: 100px;
+	height: 75px;
+}
+
+.page_product_info ul.imglist li:hover{
+    border:1px solid #666;
+}
+
+.page_product_info ul.imglist li:hover .tool{
+	display: block;
+}
+
+
+
+.page_product_info .category_selector_info{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	height:20px;
+	overflow: hidden;
+}
+
+.page_product_info .category_selector_wrapper{
+	position: absolute;
+	top: 30px;
+	left: 5px;
+	right: 5px;
+	bottom:5px;
+	overflow: auto;
+}
+
+.page_product_info #properties_area{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 300px;
+	bottom:5px;
+	overflow: hidden;
+}
+
+.page_product_info #properties_toolbar{
+	position: absolute;
+	top: 20px;
+	left: 5px;
+	right: 5px;
+	height:30px;
+	overflow: hidden;
+}
+
+
+.page_product_info .list_wrapper{
+	position: absolute;
+	top: 50px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	overflow: hidden;
+}
+
+
+.page_product_info #values_area{
+	position: absolute;
+	top: 5px;
+	left: 325px;
+	right: 5px;
+	bottom:5px;
+	overflow: auto;
+}
+
+
+.page_product_info #property_value_button{
+	text-align: left;
+	position: absolute;
+	height: 30px;
+	left: 5px;
+	right: 5px;
+	bottom:5px;
+	overflow: hidden;
+}
+
+
+.page_product_info #property_value_list,
+.page_product_info #property_value_multilist,
+.page_product_info #property_value_num,
+.page_product_info #property_value_bool{
+	position: absolute;
+	top: 20px;
+	left: 5px;
+	right: 5px;
+	bottom:40px;
+	overflow: auto;
+}
+

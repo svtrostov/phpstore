@@ -1,0 +1,33 @@
+.page_help{
+}
+
+.page_help .title{
+	font-size:52px;
+	font-weight:400;
+	color:#282e36;
+	text-shadow:1px 1px 1px #657185;
+	text-align:center;
+	margin:10px 0;
+	line-height: 60px;
+}
+
+.page_help .desc{
+	font-size:24px;
+	font-weight:400;
+	color:#282e36;
+	text-shadow:1px 1px 1px #657185;
+	text-align:center;
+	margin:10px 0;
+	line-height: 30px;
+}
+
+.page_help .faq_area{
+	margin: 20px 0px;
+	display:block;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.page_help .faq_area .faq_item{
+	margin: 30px 0px;
+}

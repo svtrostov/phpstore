@@ -1,0 +1,336 @@
+.page_user_add td,
+.page_user_add th{
+	vertical-align: middle;
+}
+
+.page_user_add #username_check{
+	background: transparent url(../images/icons/search_16.png) left center no-repeat;
+	width: auto;
+	height: 29px;
+	cursor: pointer;
+	padding-left: 24px;
+}
+
+.page_user_add .table_area{
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.page_user_add .splitline{
+	margin-top:20px;
+	margin-bottom:10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.page_user_add .tab_content_wrapper{
+	position: absolute;
+	left:10px;
+	top:55px;
+	bottom:10px;
+	right:5px;
+	padding-right:5px;
+	overflow-y:auto;
+}
+
+/*Область списка*/
+.page_user_add .sleft_panel{
+	position: absolute;
+	left:0px;
+	top:55px;
+	bottom: 0px;
+	width: 330px;
+	border: 1px solid #ccc;
+	overflow: auto;
+}
+
+
+.page_user_add .sright_panel{
+	position: absolute;
+	left:340px;
+	top:55px;
+	bottom: 0px;
+	right: 0px;
+	border: 1px solid #ccc;
+	overflow: auto;
+	padding: 5px;
+}
+
+
+.page_user_add .small_splitter{
+	position: absolute;
+	left:333px;
+	width: 4px;
+	top:55px;
+	bottom: 0px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	background: #e3e3e3 url(../images/handle_h.gif) center center no-repeat;
+	cursor: col-resize;
+}
+
+
+/*Область списка*/
+.page_user_add .left_panel{
+	position: absolute;
+	left:10px;
+	top:55px;
+	bottom: 10px;
+	width: 400px;
+	border: 1px solid #ccc;
+	overflow: auto;
+}
+
+
+.page_user_add .right_panel{
+	position: absolute;
+	left:506px;
+	top:55px;
+	bottom: 10px;
+	right: 10px;
+	border: 1px solid #ccc;
+	overflow: auto;
+}
+
+
+/*Панель инструментов в шаге*/
+.page_user_add .splitter{
+	text-align:center;
+	vertical-align:middle;
+	position: absolute;
+	left:413px;
+	top:55px;
+	bottom: 10px;
+	width: 90px;
+	overflow: hidden;
+}
+
+.page_user_add .splitter_handle{
+	background: url(../images/buttons/resize_h.png) center top no-repeat;
+	width:100%;
+	height:64px;
+	margin-bottom:100px;
+	opacity:0.5;
+	cursor: col-resize;
+}
+.page_user_add .splitter_handle:hover{
+	opacity:1;
+}
+
+
+.page_user_add .splitter > .toolbutton{
+	margin-bottom: 20px;
+	padding:0px;
+	height: 90px;
+	display:inline-block;
+	vertical-align:bottom;
+	text-align:center;
+	text-decoration: none;
+	color:#505b6b;
+	opacity:0.7;
+	cursor: pointer;
+	border-left:3px double #fff;
+	border-right:3px double #fff;
+}
+
+
+.page_user_add .splitter > .toolbutton:hover{
+	color:#222;
+	opacity:1;
+}
+
+.page_user_add .splitter > .toolbutton > div{
+	margin-top:70px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align:center;
+}
+
+
+.page_user_add .splitter > div.toolbutton.include{
+	background:url(../images/buttons/button_back.png) center top no-repeat;
+}
+.page_user_add .splitter > div.toolbutton.exclude{
+	background:url(../images/buttons/button_next.png) center top no-repeat;
+}
+
+
+.page_user_add #post_selector_companies_select{
+	width:100%;
+	height:100%;
+	border:0px;
+}
+.page_user_add #post_selector_org_structure_area_wrapper{
+	overflow: auto;
+	position: absolute;
+	left:10px;
+	top:40px;
+	bottom: 10px;
+	right: 10px;
+}
+.page_user_add #post_selector_org_structure{
+	margin:5px;
+}
+
+
+.page_user_add .table_user{
+	height: 32px;
+	overflow: hidden;
+	min-width: 150px;
+}
+
+.page_user_add .table_user .flabel{
+	float: left;
+	margin: 0px 5px;
+	width: 50px;
+	overflow: hidden;
+	line-height: 30px;
+}
+
+
+.page_user_add .table_user .fbutton{
+	float: right;
+	margin: 0px 3px;
+	width: 16px;
+	height: 30px;
+	overflow: hidden;
+	background: transparent url(../images/user.png) left center no-repeat;
+	cursor: pointer;
+}
+
+
+.page_user_add .table_user .finput{
+	margin-left: 60px;
+	margin-right: 35px;
+	margin-top: 1px;
+}
+
+.page_user_add .table_user .finput input{
+	width:100%;
+}
+
+.page_user_add .table_user .fselect{
+	margin-left: 60px;
+	margin-right: 5px;
+}
+
+.page_user_add .table_user .fselect select{
+	width:100%;
+}
+
+
+
+.page_user_add #sections_table_area_wrapper,
+.page_user_add #objects_table_area_wrapper{
+	position: absolute;
+	top: 44px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	overflow: auto;
+}
+
+.page_user_add .tool_area{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 41px;
+	overflow: hidden;
+	border-bottom:1px solid #dadada;
+	white-space: nowrap;
+}
+
+.page_user_add .tool_area > div.left{
+	display:inline-block;
+	margin-top:5px;
+	padding-left:5px;
+	border-left:3px double #dadada;
+	height:31px;
+	white-space: nowrap;
+	clear: none;
+}
+.page_user_add .tool_area > div.right{
+	float: right;
+	margin-top:5px;
+	margin-right:5px;
+	padding-left:5px;
+	border-left:3px double #dadada;
+	height:31px;
+	white-space: nowrap;
+}
+.page_user_add .tool_area > div.left:first-child{
+	border-left:3px double #FFFFFF;
+	padding-left:0px;
+}
+
+.page_user_add .tool_area .ileft{
+	padding-left:24px;
+}
+.page_user_add .tool_area .icon_add{
+	background:url(../images/icons/icon_add_24.png) left top no-repeat;
+}
+.page_user_add .tool_area .icon_edit{
+	background:url(../images/icons/icon_edit_24.png) left top no-repeat;
+}
+.page_user_add .tool_area .icon_delete{
+	background:url(../images/icons/icon_cut_24.png) left top no-repeat;
+}
+.page_user_add .tool_area .icon_copy{
+	background:url(../images/icons/icon_copy_24.png) left top no-repeat;
+}
+.page_user_add .tool_area .icon_reload{
+	background:url(../images/icons/icon_refresh_24.png) left top no-repeat;
+}
+
+.page_user_add #object_add_wrapper,
+.page_user_add #object_edit_wrapper{
+	overflow: auto;
+}
+
+.page_user_add #add_ir_type_area,
+.page_user_add #edit_ir_type_area{
+	border:1px solid #dadada;
+	width: 412px;
+	max-height: 150px;
+	overflow-y: auto;
+}
+
+.page_user_add #file_exists_area{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.page_user_add .file_input_div{
+	position: relative; 
+	overflow: hidden;
+	right:0px;
+	top:0px;
+	height: 40px;
+	text-align:left;
+}
+
+.page_user_add .file_input_hidden{
+	height: 40px; 
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	width: 150px;
+	opacity: 0; 
+	user: alpha(opacity=0); 
+	-ms-user: "alpha(opacity=0)"; 
+	-khtml-opacity: 0; 
+	-moz-opacity: 0;
+}
+
+
+.page_user_add .import_type_description{
+	margin-left:210px;
+	width: 600px;
+}
+
+.page_user_add #import_objects_list{
+	border:1px solid #dadada;
+	width: 612px;
+	max-height: 200px;
+	overflow-y: auto;
+}

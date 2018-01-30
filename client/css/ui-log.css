@@ -1,0 +1,24 @@
+#navigator_page_prev,
+#navigator_page_next{
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+#navigator_page_no{
+	text-align: center;
+}
+
+#data_area{
+	position: absolute;
+	top:40px;
+	left:5px;
+	right:5px;
+	bottom:5px;
+	overflow:auto;
+}
+
+.page_request_log .input_title{
+	font-size:10px;
+	line-height:10px;
+	color:#999;
+}

@@ -1,0 +1,18 @@
+#product_add_area{
+	overflow:auto;
+	position: absolute;
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+}
+
+/*Область вывода таблицы*/
+#category_selector_wrapper{
+	overflow: auto;
+	position: absolute;
+	left:5px;
+	top:5px;
+	bottom: 50px;
+	right: 5px;
+}
